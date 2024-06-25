@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+         {
+            "type": "node",
+            "request": "launch",
+            "name": "2.BasicProjectConfig",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\3.TypeScript\\1.TypeScript5Fundamentals\\2.BasicProjectConfig\\js\\app.js",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "preLaunchTask": "compile type scripts",    
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+          {
+            "type": "node",
+            "request": "launch",
+            "name": "2.5.4.Inheritance",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\2.Javascript\\2.5.Functions\\2.5.4.Inheritance.js",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "preLaunchTask": "compile type scripts",    
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
